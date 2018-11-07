@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* General styling */
+
+
+h1 {
+  font-size: 45px;
+  margin: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+}
+/* Page styles */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+ 
+  }
+
+.button {
+  background: none;
+  color: black;
+  border: 1px solid black;
+  padding: 3px 25px;
+
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+/*Specific styles */
+
+nav {
+  position: relative;
+}
+
+.navigation a  {
+  margin: 25px;
+  display: inline-block;
+  /*position: relative;*/
+  top: 30px;
+  
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+
+ 
+/* .centered {
+  text-align: center;
+  vertical-align: middle;
+} */
+
+
+/* header img {
+  padding-left: 500px;
+  display: inline-block;
+  
+} */
+
+.two-column {
+  display: inline-block;
+  width: 476px;
+  margin: 10px 3px;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+.three-column {
+	display: inline-block;
+	width: 320px;
+	margin: 10px 3px;
+}
+
+
+ 
+
+ address {
+  line-height: 1.15;	 
+  padding-bottom: 5px;
+ }
+
+ .contact p {
+  line-height: 2;
+  padding-bottom: 15px;
+ }
